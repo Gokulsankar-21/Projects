@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  -apple-system, 'BlinkMacSystemFont', 'Segoe UI', Roboto, 'Helvetica Neue', Arial,sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+.conatiner{
+    width: 100vw;
+    height: 100vh;
+    background: url('../images/Homepage-Model-S-Desktop-LHD-6.22.jpg');
+    background-size: cover;
+}
+header{
+    width: 100%;
+    height: 20px;
+    /* background-color:red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5% 2% 3% 3.5%;
+}
+.logo img{
+   width: 150px;
+   height: 20px;
+   cursor: pointer;
+}
+nav ul li{
+    list-style: none;
+    padding: 15px 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 125%;
+    align-items: center;
+    color: white;
+    font-weight:400 ;
+    font-size: 1em;
+}
+nav ul li a:hover{
+   
+    line-height: 40px;
+    transition: .5s;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.211);
+
+}
+#list_1 ul{
+    display: flex;
+    font-size: .8em;
+ }
+.body_content h2{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+}
+.body_content .para{
+    font-size: 1em;
+    font-weight: light;
+    text-align: center;
+}
+footer{
+    margin-top: 510px;
+    text-align: center;
+
+}
+#btn_1 button{
+    width: 20%;
+    height: 5%;
+    padding: 15px 25px;
+    font-size: .8em;
+    text-transform: capitalize;
+    /* letter-spacing: 1px; */
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btn2{
+    margin-left: 10px;
+    font-weight: 500;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.521);
+}
+.btn1{
+    margin-right: 10px;
+    font-weight: 590;
+    background-color: rgba(255, 254, 254, 0.651);
+    color: rgba(0, 0, 0, 0.801) ;
+}
+footer p{
+    margin-top: 30px;
+    font-size: .75em;
+}
